@@ -123,6 +123,7 @@ void main() {
             start: now,
             duration: const Duration(hours: 1),
             title: '',
+            description: '',
           );
           final view = DaysView<FloatingCalendarEvent>(
             controller: controller,
@@ -149,6 +150,7 @@ void main() {
             start: now,
             duration: const Duration(hours: 1),
             title: '',
+            description: '',
           );
           final view = DaysView(
             controller: controller,
@@ -184,6 +186,7 @@ void main() {
             duration: const Duration(hours: 1),
             title: '',
             color: Colors.black,
+            description: '',
           );
           FloatingCalendarEvent? tappedEvent;
           final view = DaysView<FloatingCalendarEvent>(
@@ -225,6 +228,7 @@ void main() {
             start: now,
             duration: const Duration(hours: 1),
             title: '',
+            description: '',
           );
           final view = DaysView(
             controller: controller,
@@ -270,6 +274,7 @@ void main() {
             start: now,
             duration: const Duration(hours: 1),
             title: '',
+            description: '',
           );
           final view = DaysView(
             controller: controller,
@@ -363,12 +368,14 @@ void main() {
             start: currentMonth.add(const Duration(days: 5, hours: 12)),
             duration: const Duration(minutes: 45),
             title: '',
+            description: '',
           );
           final otherEvent = SimpleEvent(
             id: 'SimpleEvent2',
             start: oneEvent.start.add(const Duration(days: 2, hours: 9)),
             duration: const Duration(hours: 1),
             title: '',
+            description: '',
           );
           final view = DaysView(
             controller: controller,
@@ -610,6 +617,7 @@ void main() {
             start: now,
             duration: const Duration(hours: 3),
             color: Colors.black,
+            description: '',
           );
 
           SimpleEvent? updatedEvent;

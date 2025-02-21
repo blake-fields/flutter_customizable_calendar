@@ -74,6 +74,7 @@ void main() {
           title: 'Test',
           start: now,
           duration: const Duration(hours: 1),
+          description: '',
         );
 
         final view = ScheduleListView<SimpleEvent>(
@@ -100,6 +101,7 @@ void main() {
           title: 'Today',
           start: now,
           duration: const Duration(hours: 1),
+          description: '',
         );
 
         final nextMonthEvent = SimpleEvent(
@@ -107,6 +109,7 @@ void main() {
           title: 'Next month',
           start: nextMonth,
           duration: const Duration(hours: 1),
+          description: '',
         );
 
         final events = [todayEvent, nextMonthEvent];
@@ -155,6 +158,7 @@ void main() {
             title: 'Today',
             start: now,
             duration: const Duration(hours: 1),
+            description: '',
           );
 
           final prevMonthEvent = SimpleEvent(
@@ -162,6 +166,7 @@ void main() {
             title: 'Previous month',
             start: prevMonth,
             duration: const Duration(hours: 1),
+            description: '',
           );
 
           final view = ScheduleListView(

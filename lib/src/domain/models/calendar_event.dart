@@ -138,11 +138,13 @@ class SimpleEvent extends EditableCalendarEvent {
     required super.start,
     required super.duration,
     required this.title,
+    required this.description,
     super.color = Colors.white,
   });
 
   /// The event title
   final String title;
+  final String description;
 
   /// Returns modified instance of the event with given params
 
@@ -152,6 +154,7 @@ class SimpleEvent extends EditableCalendarEvent {
     Duration? duration,
     Color? color,
     String? title,
+    String? description,
   }) {
     return SimpleEvent(
       id: id,
@@ -159,6 +162,7 @@ class SimpleEvent extends EditableCalendarEvent {
       duration: duration ?? this.duration,
       color: color ?? this.color,
       title: title ?? this.title,
+      description: description ?? this.description,
     );
   }
 }

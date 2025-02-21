@@ -86,6 +86,7 @@ void main() {
           title: 'Event 1',
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
+          description: '',
         );
 
         final view = MonthView<SimpleEvent>(
@@ -117,6 +118,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         final view = MonthView<SimpleEvent>(
@@ -151,6 +153,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         final view = MonthView<SimpleEvent>(
@@ -212,6 +215,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         SimpleEvent? updatedEvent;
@@ -295,6 +299,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         SimpleEvent? updatedEvent;

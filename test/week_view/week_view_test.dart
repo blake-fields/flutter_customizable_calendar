@@ -96,6 +96,7 @@ void main() {
           start: now,
           duration: const Duration(hours: 1),
           title: 'SimpleEvent1',
+          description: '',
         );
         final view = WeekView<FloatingCalendarEvent>(
           controller: controller,
@@ -370,6 +371,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         final view = WeekView<SimpleEvent>(
@@ -404,6 +406,7 @@ void main() {
           start: DateTime(now.year, now.month, 5),
           duration: const Duration(days: 1),
           color: Colors.black,
+          description: '',
         );
 
         final view = WeekView<SimpleEvent>(
@@ -468,6 +471,7 @@ void main() {
           start: now,
           duration: const Duration(hours: 3),
           color: Colors.black,
+          description: '',
         );
 
         SimpleEvent? updatedEvent;
@@ -563,6 +567,7 @@ void main() {
           start: now,
           duration: const Duration(hours: 3),
           color: Colors.black,
+          description: '',
         );
 
         SimpleEvent? updatedEvent;
